@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>I’m Sorry ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      max-width: 400px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    h1 {
+      color: #e63946;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #333;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .heart {
+      font-size: 40px;
+      animation: beat 1.5s infinite;
+    }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+    button {
+      margin-top: 20px;
+      background: #e63946;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #d62839;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="heart">❤️</div>
+    <h1>I’m Sorry</h1>
+    <p>
+      My love, I’m truly sorry for hurting you.  
+      You mean so much to me, and it was never my intention to make you sad.
+      I hope you can forgive me and give me a chance to make things right.
+    </p>
+    <p>
+      I love you always.
+    </p>
+    <button onclick="alert('Thank you for giving me a chance ❤️')">
+      Forgive Me?
+    </button>
+  </div>
+</body>
+</html>
